@@ -1,10 +1,12 @@
 package com.example.Accounts.dto.user;
 
 import jakarta.validation.constraints.Email;
-import lombok.AllArgsConstructor;
-import lombok.Data;
+import lombok.*;
 
-@Data@AllArgsConstructor
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 public class UserRequestDto {
     @Email
     private String email;

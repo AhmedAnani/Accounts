@@ -2,11 +2,11 @@ package com.example.Accounts.dto.account;
 
 
 import jakarta.validation.constraints.NotBlank;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NonNull;
+import lombok.*;
 
-@Data @AllArgsConstructor
+@Getter@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 public class AccountsDto {
     @NonNull
     private int userId;

@@ -1,10 +1,11 @@
 package com.example.Accounts.dto.user;
 
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
+import lombok.*;
 
-@Data
+@Getter
+@Setter
+@NoArgsConstructor
 @AllArgsConstructor
 public class UserResposneDto {
 
